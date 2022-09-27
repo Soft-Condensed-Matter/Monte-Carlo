@@ -1,19 +1,20 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubuser>
+  <a href="https://github.com/Soft-Condensed-Matter/Monte-Carlo/blob/master/MC.png"><img src="https://github.com/Soft-Condensed-Matter/Monte-Carlo/blob/master/MC.png" alt="Markdownify" width="200"></a>
   <br>
   Monte Carlo
   <br>
 </h1>
 
+<h4 align="center">Monte Carlo homogeneous fluid simulation  </h4>
 
 <p align="center">
   <a href="#code">Code</a> •
   <a href="#compile">Compile</a> •
   <a href="#execute">Execute</a> •
     <a href="#visualization">Visualization</a> •
-  <a href="#observables">Observables</a>    
+  <a href="#observables">Observables</a>
 </p>
 
 ## Code
