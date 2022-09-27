@@ -83,6 +83,23 @@ gnuplot> p "MCGr.dat" title '{/Symbol f}=0.4' with line line style 1 line width 
 
 GNU LGPL-v3
 
+
+## Cite this code
+[![DOI](https://zenodo.org/badge/542237113.svg)](https://zenodo.org/badge/latestdoi/542237113)
+
+* BibTex
+```
+@software{MC_HS2022,
+  author = {Alexis Torres-Carbajal},
+  doi = {10.5281/zenodo.7117628,
+  month = {10},
+  title = {{Hard-Sphere Monte Carlo}},
+  url = {https://github.com/Soft-Condensed-Matter/Monte-Carlo},
+  version = {1.0},
+  year = {2022}
+}
+```
+
 ---
 
 > Twitter [@Alpixels](https://twitter.com/Alpixels)
