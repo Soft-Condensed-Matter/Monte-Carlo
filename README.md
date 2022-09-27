@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubuser>
@@ -5,8 +6,6 @@
   Monte Carlo
   <br>
 </h1>
-
-<h4 align="center">FORTRAN code to simulate homogeneous fluid using Monte Carlo  </h4>
 
 
 <p align="center">
