@@ -1,0 +1,6 @@
+5           !Number of cells
+0.4D0       !Fraccion de volumen
+1.00D0      !Temperatura
+1000000     !Ciclos Monte Carlo
+100000      !Ciclos de equilibracion
+0.05        !Desplazamiento maximo
