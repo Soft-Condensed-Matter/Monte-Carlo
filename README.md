@@ -7,8 +7,8 @@
   <br>
 </h1>
 
-<h4 align="center">Monte Carlo homogeneous fluid simulation  </h4>
-<h3 align="center">FORTRAN code to simulate Hard-spheres in three dimensions  </h3>
+<h3 align="center">Monte Carlo homogeneous fluid simulation  </h3>
+<h4 align="center">FORTRAN code to simulate Hard-spheres in three dimensions  </h4>
 
 <p align="center">
   <a href="#code">Code</a> •
