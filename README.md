@@ -22,6 +22,9 @@
 * MC_HS.f90
   - Hard-sphere fluid in three dimensions simulated with Monte Carlo using the Metropolis alghorithm. Within the code the radial distribution function, pressure and compressibility factor averages are computed. The code also makes a file with frames that are used to build a the simulation movie with vmd.
 
+* MC_SW.f90
+  - Square-well fluid in three dimensions simulated with Monte Carlo using the Metropolis alghorithm. Within the code the density profile is computed. The code also makes a file with frames that are used to build a the simulation movie with vmd.
+
 ## Compile
 ```bash
 Serial:
@@ -41,7 +44,7 @@ Parallel (share memory):
 
 ## Execute
 * Simulation parameters
-The simulation conditions as the number of particles, the volume fraction, temperature and number of Monte Carlo cycles are specified in the MC.inp file. 
+The simulation conditions as the number of particles, the volume fraction, temperature and number of Monte Carlo cycles are specified in the MC.inp file. Only for the Square-Well fluid code the attractive range must be specified at the end of file.
 <i>Each time the code is executed files with results are rewritten</i>
 
 * Run simulation
@@ -76,6 +79,11 @@ Averages of thermodynamic properties are summarized in file MCAvr.dat
 Radial distribution function is saved in file MCGr.dat and can be plotted with any graphical sortware like gnuplot
 ```bash
 gnuplot> p "MCGr.dat" title '{/Symbol f}=0.4' with line line style 1 line width 2
+```
+
+Density profile is saved in file MCGz.dat and can be plotted with any graphical sortware like gnuplot. The second column is the profile direct computation and the third one is the profile center at the center of mass
+```bash
+gnuplot> p "MCGz.dat" using 1:3 title '{/Symbol T}=1.0' with line line style 1 line width 2
 ```
 
 
